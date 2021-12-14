@@ -1,0 +1,333 @@
+<html>
+
+<head>
+    <title>
+        Salman Mohammed's Resume
+    </title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            min-height: 100%;
+            background: #eee;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            color: #222;
+            font-size: 14px;
+            line-height: 26px;
+            padding-bottom: 50px;
+        }
+
+        .container {
+            max-width: 700px;
+            background: #fff;
+            margin: 0px auto 0px;
+            box-shadow: 1px 1px 2px #dad7d7;
+            border-radius: 3px;
+            padding: 40px;
+            margin-top: 50px;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header .full-name {
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .header .first-name {
+            font-weight: 700;
+        }
+
+        .header .last-name {
+            font-weight: 300;
+        }
+
+        .header .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .header .email,
+        .header .phone {
+            color: #999;
+            font-weight: 300;
+        }
+
+        .header .separator {
+            height: 10px;
+            display: inline-block;
+            border-left: 2px solid #999;
+            margin: 0px 10px;
+        }
+
+        .header .position {
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: underline;
+        }
+
+        .details {
+            line-height: 20px;
+        }
+
+        .details .section {
+            margin-bottom: 40px;
+        }
+
+        .details .section:last-of-type {
+            margin-bottom: 0px;
+        }
+
+        .details .section__title {
+            letter-spacing: 2px;
+            color: #54afe4;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .details .section__list-item {
+            margin-bottom: 40px;
+        }
+
+        .details .section__list-item:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .details .left,
+        .details .right {
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .details .left {
+            width: 60%;
+        }
+
+        .details .right {
+            text-align: right;
+            width: 39%;
+        }
+
+        .details .name {
+            font-weight: bold;
+        }
+
+        .details a {
+            text-decoration: none;
+            color: #000;
+            font-style: italic;
+        }
+
+        .details a:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+
+        .details .skills__item {
+            margin-bottom: 10px;
+        }
+
+        .details .skills__item .right input {
+            display: none;
+        }
+
+        .details .skills__item .right label {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #c3def3;
+            border-radius: 20px;
+            margin-right: 3px;
+        }
+
+        .details .skills__item .right input:checked+label {
+            background: #79a9ce;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="full-name">
+                <span class="first-name">Salman</span>
+                <span class="last-name">Mohammed</span>
+            </div>
+            <div class="contact-info">
+                <span class="email">Email: </span>
+                <span class="email-val">salman.9913@gmail.com</span>
+                <span class="separator"></span>
+                <span class="phone">Phone: </span>
+                <span class="phone-val">+91-9591925196</span>
+            </div>
+            <div class="about">
+                <span class="position">Scholar@SAP - Developer</span>
+                <span class="desc">
+                    I'm a passionate, hardworking individual and a Scholar@SAP with a year of experience across various technologies like Java, Springboot, ABAP, OData and CDS.
+                </span>
+            </div>
+        </div>
+        <div class="details">
+            <div class="section">
+                <div class="section__title">Experience</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">SAP Labs India, Bangalore</div>
+                            <div class="duration">Sep 2020 - May 2021</div>
+                            <div class="duration">June 2021 - present</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">Developer (Scholar@SAP)</div>
+                            <div class="desc">Java, Springboot, JUnits</div>
+                            <div class="desc">ABAP, CDS, OData</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__title">Education</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">Birla Institute of Technology</div>
+                            <div class="addr">Pilani, Rajasthan</div>
+                            <div class="duration">Aug 2020 - June 2022</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">M.Tech., Software Engineering </div>
+                            <div class="desc">8.04 CGPA</div>
+                        </div>
+                    </div>
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">CMR Institute of Technology</div>
+                            <div class="addr">Bangalore, India</div>
+                            <div class="duration">Aug 2016 - July 2020</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">B.E., Computer Science and Engineering</div>
+                            <div class="desc">7.81, CGPA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__title">Teams</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="name">Behavioral Insights - Public Services</div>
+                        <div class="text">Mainly worked on core ABAP/CDS and it's associated artifacts | API Consumption using the ABAP RESTful Programming Model | POCs, along with end-to-end design and testing activities</div>
+                    </div>
+
+                    <div class="section__list-item">
+                        <div class="name">Produce Manufacturing</div>
+                        <div class="text"> Java, SpringBoot, JUnits, CAP Model, SAP Cloud Platform | Code Coverage with JUnits, KPIs and Sonar Code Smells | Error Handling and Status Management | SATs, FITs and Hotfixes
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__title">Skills</div>
+                <div class="skills">
+                    <div class="skills__item">
+                        <div class="left">
+                            <div class="name">
+                                Java, JUnits
+                            </div>
+                        </div>
+                        <div class="right">
+                            <input id="ck1" type="checkbox" checked />
+
+                            <label for="ck1"></label>
+                            <input id="ck2" type="checkbox" checked />
+
+                            <label for="ck2"></label>
+                            <input id="ck3" type="checkbox" checked />
+
+                            <label for="ck3"></label>
+                            <input id="ck4" type="checkbox" />
+                            <label for="ck4"></label>
+                            <input id="ck5" type="checkbox" />
+                            <label for="ck5"></label>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills__item">
+                    <div class="left">
+                        <div class="name">
+                            ABAP</div>
+                    </div>
+                    <div class="right">
+                        <input id="ck1" type="checkbox" checked />
+
+                        <label for="ck1"></label>
+                        <input id="ck2" type="checkbox" checked />
+
+                        <label for="ck2"></label>
+                        <input id="ck3" type="checkbox" checked />
+
+                        <label for="ck3"></label>
+                        <input id="ck4" type="checkbox" />
+                        <label for="ck4"></label>
+                        <input id="ck5" type="checkbox" />
+                        <label for="ck5"></label>
+
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="left">
+                        <div class="name">
+                            C, C++</div>
+                    </div>
+                    <div class="right">
+                        <input id="ck1" type="checkbox" checked />
+
+                        <label for="ck1"></label>
+                        <input id="ck2" type="checkbox" checked />
+
+                        <label for="ck2"></label>
+                        <input id="ck3" type="checkbox" checked />
+
+                        <label for="ck3"></label>
+                        <input id="ck4" type="checkbox" />
+                        <label for="ck4"></label>
+                        <input id="ck5" type="checkbox" />
+                        <label for="ck5"></label>
+
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__title">
+                    Interests
+                </div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        Gaming, Anime, Travelling.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
